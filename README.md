@@ -93,7 +93,7 @@ python train_domain_adaptation.py --gpu 0 --batchSize 15 --niter 170000 --use_de
 python train_domain_adaptation.py --gpu 0 --batchSize 10 --niter 5000 --use_decay --use_perceptual --domain_adaptation
 ```  
 
-### Citation
+## Citation
 
 If you use this code for your research, please cite our paper:
 ```
