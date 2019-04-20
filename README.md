@@ -119,10 +119,10 @@ python train_domain_adaptation.py --gpu 0 --batchSize 10 --niter 5000 --use_deca
 If you use this code for your research, please cite our paper:
 ```
 @InProceedings{typography2019,
-author = {Wang, Wenjing and Liu, Jiaying and Yang, Shuai and Guo, Zongming},
-title = {Typography with Decor: Intelligent Text Style Transfer},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
+   author = {Wang, Wenjing and Liu, Jiaying and Yang, Shuai and Guo, Zongming},
+   title = {Typography with Decor: Intelligent Text Style Transfer},
+   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+   month = {June},
+   year = {2019}
 }
 ```
