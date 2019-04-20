@@ -1,5 +1,5 @@
 # Typography-with-Decor
-<img src="https://github.com/daooshee/Typography-with-Decor/blob/master/example.jpg" width="800" alt="Example"/>
+<img src="https://github.com/daooshee/Typography-with-Decor/blob/master/teasor.png" width="800" alt="Example"/>
 
 **Typography with Decor: Intelligent Text Style Transfer** <br>
 [Wenjing Wang](https://daooshee.github.io/website/), [Jiaying Liu](http://icst.pku.edu.cn/struct/people/liujiaying.html), [Shuai Yang](http://www.icst.pku.edu.cn/struct/people/yangs/index.html), and [Zongming Guo](http://www.icst.pku.edu.cn/vip/people-guozm.html) <br>
