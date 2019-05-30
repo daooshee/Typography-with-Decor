@@ -5,6 +5,8 @@
 [Wenjing Wang](https://daooshee.github.io/website/), [Jiaying Liu](http://icst.pku.edu.cn/struct/people/liujiaying.html), [Shuai Yang](http://www.icst.pku.edu.cn/struct/people/yangs/index.html), and [Zongming Guo](http://www.icst.pku.edu.cn/vip/people-guozm.html) <br>
 CVPR, 2019
 
+[Project Page](https://daooshee.github.io/Typography2019/), [Paper] (https://github.com/daooshee/Typography2019/blob/master/3159.pdf)
+
 ## Setup
 
 ### Prerequisites
