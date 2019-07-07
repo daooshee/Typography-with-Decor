@@ -70,6 +70,23 @@ x(:,:,2) = min(255, I3);
 
 imwrite(x,'result.png');
 ```
+(Update, 190707) The following python function works too:
+```
+import numpy as np
+from scipy.ndimage.morphology import distance_transform_edt as bwdist
+
+def PreProcess(img_path):
+   img = cv2.imread(img_path)
+	I = img[:,:,2]
+	I2 = bwdist(I <= 100);
+	I3 = bwdist(I > 100);
+
+	img[:,:,0] = np.clip(I2,0,255);
+	img[:,:,1] = np.clip(I3,0,255);
+
+	return img
+```
+   
 * Write the names of your custom images in `runtest.py`.
 
 * Run `python runtest.py`.
