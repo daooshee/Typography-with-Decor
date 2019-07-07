@@ -76,6 +76,7 @@ imwrite(x,'result.png');
 ```
 The following python function works too:
 ```
+import cv2
 import numpy as np
 from scipy.ndimage.morphology import distance_transform_edt as bwdist
 
