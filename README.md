@@ -7,6 +7,8 @@ CVPR, 2019
 
 [[Project Page]](https://daooshee.github.io/Typography2019/), [[Paper]](https://github.com/daooshee/Typography2019/blob/master/3159.pdf)
 
+Update 190707: fix a bug in `README.md` and add a python version for glyph pre-processing.
+
 ## Setup
 
 ### Prerequisites
@@ -19,7 +21,7 @@ CVPR, 2019
 
 * matplotlib
 
-* opencv-python
+* opencv-python (3.4.2, other versions should work too)
 
 ### Getting Started
 
@@ -44,6 +46,8 @@ cd Typography-with-Decor
    Save and unzip `TextEffects.zip` to `Data/TextEffects/`. It contains 60 different kinds of text effects with 52 English letters of 19 fonts, totally 59k images.
    
    These two parts are required by the one-shot fine-tuning process.
+
+* Run `mkdir cache`, `mkdir checkpoints`, `mkdir basal-text-effect-transfer` and `mkdir result`. 
 
 ### Quick Testing
 * Some examples (teasor and Fig. 14 in the paper) are provided in `Input/`. For decor segmentation + one-shot fine-tuning + basal text effect transfer + decor recomposition, simply run: <br>
@@ -70,7 +74,7 @@ x(:,:,2) = min(255, I3);
 
 imwrite(x,'result.png');
 ```
-(Update, 190707) The following python function works too:
+The following python function works too:
 ```
 import numpy as np
 from scipy.ndimage.morphology import distance_transform_edt as bwdist
